@@ -30,12 +30,17 @@ public class Operator06 {
 		//4의 2의 보수값 
 		//4 -> 0 0100
 		//4 1의 보수 -> 1 1011
-		//4의 2의 보수 -> 1 1100
+		//4의 2의 보수 -> 1 1100 -> -4
+		//
 		
 		 
 		
 		System.out.println("~num1: " + ~num1);
 		
+		int x;
+		x = 3;
+		System.out.println("%d|n", (x << 2)); // 0011 << 2 -> 1100
+		System.out.println("%d|n", (x >> 2)); // 0011 >> 2 -> 0000
 	}
 
 }
