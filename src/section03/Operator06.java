@@ -39,8 +39,8 @@ public class Operator06 {
 		
 		int x;
 		x = 3;
-		System.out.println("%d|n", (x << 2)); // 0011 << 2 -> 1100
-		System.out.println("%d|n", (x >> 2)); // 0011 >> 2 -> 0000
+		System.out.printf("%d\n", (x << 2)); // 0011 << 2 -> 1100
+		System.out.printf("%d\n", (x >> 2)); // 0011 >> 2 -> 0000
 	}
 
 }
