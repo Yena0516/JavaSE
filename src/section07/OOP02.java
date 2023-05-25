@@ -3,7 +3,7 @@ package section07;
 
 public class OOP02 {
 	public static void main(String[] args) {
-		PokerCard card1 = new PokerCard();
+		PokerCard Pokercard = new PokerCard();
 		PokerCard card2 = new PokerCard();
 			
 		System.out.println("card1 type: " + card1.type);
@@ -23,8 +23,8 @@ public class OOP02 {
 		System.out.println("card1 number: " + card1.number);
 		System.out.println("card2 number: " + card2.number);
 		
-		card1.width = 70;
-		System.out.println("card1width");
-		System.out.println("card2width");
+		Pokercard.width = 70;
+		System.out.println("card1 width" + Pokercard.width);
+		System.out.println("card2 width" + card2.width);
 	}
 }

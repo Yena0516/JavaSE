@@ -28,7 +28,12 @@ package section07;
  *				
  *
  *3. 정적(static) 변수
-
+ *		static이 붙은 멤버면수
+ *		같은 타입 모든 객체가 공유하는 변수 
+ *		클래스명으로 접근 가능
+ *		객체 생성 없이 불러올 수 있다.
+ *
+ *
  * 
  */
 public class Var {

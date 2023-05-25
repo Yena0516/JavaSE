@@ -8,7 +8,9 @@ public class Car {
 	
 	public void drive() {
 		System.out.println("운전을 해요!");
-		
+	}
+		public void parking() {
+			System.out.println("주차를 해요!");
 	}
 
 }
