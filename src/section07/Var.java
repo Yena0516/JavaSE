@@ -51,6 +51,7 @@ public class Var {
 		//var1.printNum();
 	}
 	
+	
 	public static void getAreaNum() {
 		int areaNum =30;
 	}
